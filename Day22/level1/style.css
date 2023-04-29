@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h3,
+p {
+    text-decoration: underline;
+}
+
+.number {
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+    justify-content: center;
+    margin: 0 60vh;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+
+
+}
+
+
+
+.buttons {
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.warning-message {
+    text-align: center;
+}
+
+input {
+    height: 40px;
+    border: 1px solid rgb(55, 106, 117);
+    width: 30%;
+    border-radius: 5px;
+    background-color: rgba(172, 216, 255, 0.616);
+}
+
+button {
+    background-color: rgb(203, 247, 138);
+    height: 40px;
+    border: 1px rgb(250, 254, 255);
+    border-radius: 5px;
+}

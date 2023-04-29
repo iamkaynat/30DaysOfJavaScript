@@ -1,0 +1,28 @@
+let challenge =  ' 30 Days Of JavaScript ';
+console.log(challenge);
+console.log(challenge.length);
+console.log(challenge.toUpperCase()); 
+console.log(challenge.toLowerCase()); 
+console.log(challenge.substr(3,19));
+console.log(challenge.includes('Script'));
+console.log(challenge.split(' '));
+let cc= 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
+console.log(cc.split(','));
+console.log(challenge.replace('JavaScript' , 'Python'));
+console.log(challenge.charAt(15));
+console.log(challenge.indexOf('J'));
+console.log(challenge.charCodeAt(11));
+console.log(challenge.indexOf('a'));
+console.log(challenge.lastIndexOf('a'));
+let sen= 'You cannot end a sentence with because because because is a conjunction';
+console.log(sen.indexOf('because'));
+console.log(sen.lastIndexOf('because'));
+console.log(sen.search('because'));
+console.log(challenge.trim());
+console.log(challenge.startsWith(' '));
+console.log(challenge.endsWith(' '));
+
+let x='';
+console.log(x.concat('30 Days of' ,' ', 'Javascript'));
+console.log(challenge.repeat(2));
+console.log(challenge.match(/a/g));
